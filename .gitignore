@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+*.sqlite3
+*.db
+*.log
+*.pot
+*.po
+*.mo
+*.bak
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Environment variables
+.env
+
+# Secret keys
+*.key
+
+# IDE-specific files
+.vscode/
+*.sublime-workspace
+*.sublime-project
