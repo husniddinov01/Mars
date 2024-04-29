@@ -27,5 +27,23 @@ class LoginTeacherSeriaizer(serializers.ModelSerializer):
 
 class GrupSeriaizer(serializers.ModelSerializer):
     class Meta:
-        model = Teacher
+        model = Group
+        fields = '__all__'        
+
+
+class HomeWorkSeriaizer(serializers.ModelSerializer):
+    class  Meta:
+         model = HomeWork
+         fields = '__all__'      
+
+
+class CoinsSeriaizer(serializers.ModelSerializer):
+    class Meta:
+        model = Coins
+        fields = '__all__'        
+
+
+class HackatonSeriaizer(serializers.ModelSerializer):
+    class Meta:
+        model = Hackaton
         fields = '__all__'        
